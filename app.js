@@ -2,6 +2,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const bodyParser = require('body-parser');
 const workoutRoutes = require('./routes/workoutRoutes');
+const cors = require('cors'); // Allows communication with the React frontend
 
 const app = express();
 
